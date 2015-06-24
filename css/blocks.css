@@ -3190,7 +3190,7 @@
   color: #555;
   padding: 0 15px;
   margin-bottom: 20px;
-  text-align: justify;
+  font-size: 13px !important;
 }
 
 .news-v1 .news-v1-info {

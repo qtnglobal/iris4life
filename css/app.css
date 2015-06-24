@@ -185,7 +185,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   border-bottom-style: dotted;
 }
 .call-action-v1{
-  margin-bottom: -40px;
+  margin-bottom: 0px;
 }
 /*Heading Titles v1*/
 .title-v1 {
@@ -219,10 +219,10 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   background: #72C02C;
 }
 
-/*.title-v1 p {*/
-  /*font-size: 19px;*/
-  /*font-weight: 200;*/
-/*}*/
+.title-v1 p {
+  font-size: 19px;
+  font-weight: 200;
+}
 
 /*Heading Titles v2*/
 h2.title-v2 {

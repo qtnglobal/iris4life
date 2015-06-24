@@ -3529,13 +3529,6 @@ fieldset[disabled] .btn-vk.active {
 
 /*Import Global Compulsory CSS Files*/
 
-body {
-  width: 100%;
-  height: 100%;
-  color: #333;
-  font-size: 17px;
-  line-height: 1.6;
-}
 
 html {
   width: 100%;
@@ -3886,6 +3879,7 @@ a:hover {
 .about-section {
   padding-top: 0px;
   padding-bottom: 0;
+  background-color: #E8E8E8;
 }
 
 .block-v1 {
@@ -3893,7 +3887,7 @@ a:hover {
 }
 
 .about-section .about-image {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 /*Icon Lists*/
