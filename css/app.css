@@ -216,7 +216,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   content: " ";
   margin-left: -39px;
   position: absolute;
-  background: #CB2BA7;
+  background: #72C02C;
 }
 
 /*.title-v1 p {*/
@@ -1848,7 +1848,7 @@ i.icon-bg-light-green {
 }
 
 i.icon-bg-u {
-   background: #CB2BA7;
+   background: #72C02C;
 }
 i.icon-bg-blue {
    background: #3498db;
@@ -1878,7 +1878,7 @@ i.icon-bg-darker {
    background: #333;
 }
 i.icon-bg-purple {
-   background: #9b6bcc;
+   background: #72C02C;
 }
 i.icon-bg-aqua {
    background: #27d7e7;
@@ -3297,7 +3297,7 @@ img.image-md {
 
 .content-lg {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .space-lg-hor {
@@ -3457,11 +3457,15 @@ img.image-md {
 
 /*Grey Backroud*/
 .bg-grey {
-  background: #f7f7f7;
+  background: #FFF;
   border-top: solid 1px #eee;
   border-bottom: solid 1px #eee;
 }
-
+.bg-grey1 {
+  background: #E8E8E8;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+}
 /*Rounded and Circle Classes
 ------------------------------------*/
 .no-rounded { border-radius: 0 !important;}
@@ -3512,10 +3516,10 @@ img.image-md {
 .lft-img-margin { margin:0 20px 5px 0;}
 .rgt-img-margin { margin:0 0 5px 10px;}
 
-img.img-center,
-.img-center img {
-  margin-left: auto;
+img.img-center, .img-center img {
+  margin-left: 90px;
   margin-right: auto;
+  width: 90%;
 }
 
 /*Background Light*/
@@ -3697,4 +3701,6 @@ img.img-center,
 .bg-1{
   margin-bottom: 30px;
 }
-
+.owl-wrapper-outer {
+  color: #fff !important;
+}
